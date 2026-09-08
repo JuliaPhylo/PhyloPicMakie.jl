@@ -9,7 +9,7 @@ makedocs(;
     authors = "Jeet Sukumaran <jeetsukumaran@gmail.com>",
     sitename = "PhyloPicMakie.jl",
     format = Documenter.HTML(;
-        canonical = "https://jeetsukumaran.github.io/PhyloPicMakie.jl",
+        canonical = "https://juliaphylo.github.io/PhyloPicMakie.jl",
         edit_link = "main",
         assets = String[],
     ),
@@ -24,6 +24,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo = "github.com/jeetsukumaran/PhyloPicMakie.jl",
+    repo = "github.com/JuliaPhylo/PhyloPicMakie.jl.git",
     devbranch = "main",
 )

@@ -1,7 +1,7 @@
 # PhyloPicMakie
 
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://jeetsukumaran.github.io/PhyloPicMakie.jl/dev/)
-[![Build Status](https://github.com/jeetsukumaran/PhyloPicMakie.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/jeetsukumaran/PhyloPicMakie.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://juliaphylo.github.io/PhyloPicMakie.jl/dev/)
+[![Build Status](https://github.com/JuliaPhylo/PhyloPicMakie.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/JuliaPhylo/PhyloPicMakie.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![Aqua](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
 
 `PhyloPicMakie` adds [PhyloPic](https://www.phylopic.org/) silhouettes to
@@ -22,7 +22,7 @@ To use the current development version before registration:
 
 ```julia
 import Pkg
-Pkg.add(url = "https://github.com/jeetsukumaran/PhyloPicMakie.jl")
+Pkg.add(url = "https://github.com/JuliaPhylo/PhyloPicMakie.jl")
 ```
 
 PhyloPicMakie supports Julia 1.11 and later and Makie 0.24.
@@ -84,7 +84,7 @@ end
   native name search, explicit GBIF and PBDB resolvers, identifier resolution,
   pagination, image selection, and batch requests.
 
-See the [development documentation](https://jeetsukumaran.github.io/PhyloPicMakie.jl/dev/)
+See the [development documentation](https://juliaphylo.github.io/PhyloPicMakie.jl/dev/)
 for complete examples and API details. The repository also contains a compact
 beginner-to-advanced gallery in [`examples/`](examples/README.md).
 
